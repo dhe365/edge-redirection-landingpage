@@ -1,0 +1,58 @@
+{
+  "data": {
+    "bgColor": "var(--color-blue-medium)",
+    "number": "+49 69 4005520",
+    "mail": "info@glueckkanja.com",
+    "brandLogos": null,
+    "logos": [
+      {
+        "img": "/logos/gk-Logo-sw.svg",
+        "alt": "glueckkanja Logo",
+        "url": "index.html",
+        "class": "max-w-19rem"
+      }
+    ],
+    "links": [
+      {
+        "title": "Datenschutz",
+        "url": "/de/datenschutz"
+      },
+      {
+        "title": "Impressum",
+        "url": "/de/impressum"
+      },
+      {
+        "title": "No Cookies",
+        "url": "/de/cookies"
+      }
+    ],
+    "linksEn": [
+      {
+        "title": "Privacy",
+        "url": "/en/privacy"
+      },
+      {
+        "title": "Imprint",
+        "url": "/en/imprint"
+      },
+      {
+        "title": "No Cookies",
+        "url": "/en/cookies"
+      }
+    ],
+    "linksEs": [
+      {
+        "title": "Privacidad",
+        "url": "/en/privacy"
+      },
+      {
+        "title": "Imprimir",
+        "url": "/en/imprint"
+      },
+      {
+        "title": "Sin Cookies",
+        "url": "/en/cookies"
+      }
+    ]
+  }
+}

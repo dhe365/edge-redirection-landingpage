@@ -1,0 +1,35 @@
+{
+  "name": "c4a8-web-edge-glueckkanja-com",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "start": "npm run clear && rm -f package-lock.json && npm install && node scripts/fix-static-url.js local && nuxt dev --host",
+    "dev": "npm run clear && nuxt dev --host",
+    "generate": "npm install github:c4a8/c4a8-web-shared-components#master && node scripts/fix-static-url.js production && cross-env NODE_OPTIONS=--max_old_space_size=8192 nuxt generate",
+    "preview": "nuxt preview",
+    "clear": "rm -rf .nuxt  && rm -rf node_modules/.cache/ && echo Nuxt Cache cleared.",
+    "relink": "npm link shared-components && npm run dev",
+    "gen-test": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.4.0",
+    "@nuxt/kit": "^3.16.1",
+    "@nuxtjs/critters": "^0.7.2",
+    "@nuxtjs/i18n": "^9.3.4",
+    "@nuxtjs/sitemap": "^7.2.9",
+    "@pinia/nuxt": "^0.5.4",
+    "@unhead/vue": "^2.0.14",
+    "better-sqlite3": "^12.2.0",
+    "nuxt": "^3.16.1",
+    "nuxt-schema-org": "^5.0.6",
+    "nuxt-security": "^2.0.0",
+    "nuxt-swiper": "^2.0.1",
+    "oxc-parser": "^0.72.3",
+    "pinia": "^2.2.2",
+    "shared-components": "github:c4a8/c4a8-web-shared-components#master",
+    "sitemap": "^8.0.0",
+    "vue": "^3.5.20",
+    "vue-router": "^4.4.5"
+  }
+}
