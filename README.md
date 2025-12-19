@@ -2,4 +2,6 @@
 
 This repository contains the static web page referenced in the blog post **"Implement Microsoft Edge as the Secured Corporate Browser"**.
 
-The page serves as a landing page that guides users to Microsoft Edge as their default corporate browser. 
+The page serves as a landing page that guides users to Microsoft Edge as their default corporate browser.
+
+The Intune policy for configuring the redirection in Google Chrome is located in the **[policies folder](docs/policies/)**.
