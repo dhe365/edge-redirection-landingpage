@@ -55,10 +55,6 @@
   }
 }
 
-.footer__quote a {
-  color: white !important;
-}
-
 .cta.btn-secondary,
 .btn-secondary {
   border-color: var(--color-blue-light) !important;
