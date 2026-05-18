@@ -10,6 +10,14 @@ const baseURL = process.env.NUXT_APP_BASE_URL
   : null;
 
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: "Microsoft Edge — cloudlab",
+      link: [
+        { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
+      ],
+    },
+  },
   i18n: {
     baseUrl: isDevelopment
       ? "http://localhost:3000"
