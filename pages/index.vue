@@ -5,7 +5,7 @@
         <a href="microsoft-edge:https://about:newtab">
           <div class="row row-cols-md-2 row-cols-1">
             <div class="p-5 d-flex align-content-center justify-content-center">
-              <v-img v-bind="imgData" class="edgeLogo" />
+              <img src="/icons/icon-edge.svg" alt="Microsoft Edge Logo" class="edgeLogo" />
             </div>
             <div class="p-5">
               <headline class="font-weight-light" :level="textData.level1"

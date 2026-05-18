@@ -58,3 +58,21 @@
 .footer__quote a {
   color: white !important;
 }
+
+.cta.btn-secondary,
+.btn-secondary {
+  border-color: var(--color-blue-light) !important;
+  color: #111 !important;
+}
+.cta.btn-secondary:hover,
+.btn-secondary:hover {
+  background-color: var(--color-blue-light) !important;
+  border-color: var(--color-blue-light) !important;
+  color: #fff !important;
+}
+
+.edgeLogo {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+}
