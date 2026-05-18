@@ -69,7 +69,7 @@ const imgData = computed(() => {
   return {
     img: "icons/icon-edge.svg",
     alt: "Microsoft Edge Logo",
-    cloudinary: true,
+    cloudinary: false,
   };
 });
 
