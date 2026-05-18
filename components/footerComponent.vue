@@ -23,7 +23,7 @@
                 logo.linkClasses ? logo.linkClasses : 'w-75 w-md-35 w-lg-100',
               ]"
             >
-              <v-img :cloudinary="true" v-bind="logo"></v-img>
+              <v-img v-bind="logo"></v-img>
             </a>
           </div>
           <div class="footer__links-container">
@@ -55,63 +55,49 @@ const footerData = {
   ...localeData({
     de: {
       bgColor: "var(--color-blue-medium)",
-      number: "+49 69 4005520",
-      mail: "info@glueckkanja.com",
-      copyright: "2025 glueckkanja AG. All rights reserved.",
-      brandLogos: null,
+      copyright: "2026 cloudlab — personal Microsoft 365 lab by Dennis Hermanns.",
       quote:
-        "Powered by <strong><a href='https://www.glueckkanja.com/de/entra-intune/managed-intune/'>Managed Intune</a></strong> — glueckkanja delivers modern and fully cloud-based device management.",
+        "Powered by <strong>Microsoft Intune</strong> — <a href='microsoft-edge:https://cloudlab.d-h.io'>cloudlab</a> ist das persönliche Microsoft 365 Lab von Dennis Hermanns.",
       logos: [
         {
-          img: "logos/gk-Logo-sw.svg",
-          alt: "glueckkanja Logo",
-          url: "microsoft-edge:https://www.glueckkanja.com/de",
+          img: "cloudlab-logo.svg",
+          alt: "cloudlab Logo",
+          url: "microsoft-edge:https://cloudlab.d-h.io",
           class: "max-w-19rem",
         },
       ],
       links: [
         {
-          title: "Datenschutz",
-          url: "microsoft-edge:https://www.glueckkanja.com/de/datenschutz",
+          title: "d-h.io",
+          url: "microsoft-edge:https://d-h.io",
         },
         {
-          title: "Impressum",
-          url: "microsoft-edge:https://www.glueckkanja.com/de/impressum",
-        },
-        {
-          title: "Kontakt & Standorte",
-          url: "microsoft-edge:https://www.glueckkanja.com/de/company/contact-and-locations",
+          title: "GitHub",
+          url: "microsoft-edge:https://github.com/dhe365/edge-redirection-landingpage",
         },
       ],
     },
     en: {
       bgColor: "var(--color-blue-medium)",
-      number: "+49 69 4005520",
-      mail: "info@glueckkanja.com",
-      copyright: "2025 glueckkanja AG. All rights reserved.",
-      brandLogos: null,
+      copyright: "2026 cloudlab — personal Microsoft 365 lab by Dennis Hermanns.",
       quote:
-        "Powered by <strong><a href='https://www.glueckkanja.com/en/entra-intune/managed-intune/'>Managed Intune</a></strong> — glueckkanja delivers modern and fully cloud-based device management.",
+        "Powered by <strong>Microsoft Intune</strong> — <a href='microsoft-edge:https://cloudlab.d-h.io'>cloudlab</a> is the personal Microsoft 365 lab of Dennis Hermanns.",
       logos: [
         {
-          img: "logos/gk-Logo-sw.svg",
-          alt: "glueckkanja Logo",
-          url: "microsoft-edge:https://www.glueckkanja.com/en",
+          img: "cloudlab-logo.svg",
+          alt: "cloudlab Logo",
+          url: "microsoft-edge:https://cloudlab.d-h.io",
           class: "max-w-19rem",
         },
       ],
       links: [
         {
-          title: "Privacy",
-          url: "microsoft-edge:https://www.glueckkanja.com/en/privacy",
+          title: "d-h.io",
+          url: "microsoft-edge:https://d-h.io",
         },
         {
-          title: "Imprint",
-          url: "microsoft-edge:https://www.glueckkanja.com/en/imprint",
-        },
-        {
-          title: "Contact & Locations",
-          url: "microsoft-edge:https://glueckkanja.com/en/company/contact-and-locations",
+          title: "GitHub",
+          url: "microsoft-edge:https://github.com/dhe365/edge-redirection-landingpage",
         },
       ],
     },

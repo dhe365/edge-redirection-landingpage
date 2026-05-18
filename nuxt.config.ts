@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   i18n: {
     baseUrl: isDevelopment
       ? "http://localhost:3000"
-      : "https://edge.glueckkanja.com",
+      : "https://edge.cloudlab.d-h.io",
     bundle: {
       optimizeTranslationDirective: false,
     },

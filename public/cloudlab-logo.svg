@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="320" height="64" role="img" aria-label="cloudlab">
+  <style>
+    .wordmark { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; font-size: 38px; fill: #ffffff; }
+    .dot { fill: #0078D4; }
+    .bracket { fill: #0078D4; opacity: 0.85; }
+  </style>
+  <text x="0" y="46" class="bracket wordmark">[</text>
+  <text x="28" y="46" class="wordmark">cloudlab</text>
+  <circle cx="232" cy="36" r="5" class="dot"/>
+  <text x="248" y="46" class="bracket wordmark">]</text>
+</svg>

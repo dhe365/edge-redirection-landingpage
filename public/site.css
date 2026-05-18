@@ -1,3 +1,9 @@
+:root {
+  --color-blue-medium: #003F73;
+  --color-blue-light: #50E6FF;
+  --color-accent: #0078D4;
+}
+
 .underline {
   background-position-x: 1em;
   background-position-y: 0.6em;
